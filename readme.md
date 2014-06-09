@@ -4,8 +4,7 @@ Source zip file for the data: https://d396qusza40orc.cloudfront.net/getdata%2Fpr
 Original description of the data and experiment: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-Script: 	run_analysis.R
-The script does the following:
+Script run_analysis.R does the following:
  - The script downloads and unzips source file to the working directory. (If you alread have "UCI HAR Dataset" folder containing source data in working directory 
    than just comment first three lines of code out.)
  - The subject, X, and y files are loaded for both test and train group separately. Header (for X files) are from the features.txt file and applied to both test and train datasets.
